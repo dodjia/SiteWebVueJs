@@ -1,29 +1,33 @@
 <template>
     <div class="header">
         <div class="textHeader">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <router-link class="nav-link" to="/">Accueil</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link" to="/enfants">Enfants</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link" to="/adolescentes">Adolescentes</router-link>
-                        </li>
-                        <li class="nav-item">
-                          <router-link class="nav-link" to="/femmes">Femmes</router-link>
-                        </li>
-                        <li class="nav-item">
-                          <router-link class="nav-link" to="/hommes">Hommes</router-link>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <div  class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+                    <button class="navbar-toggler d-flex float-left" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarsExample11">
+                        <div class="text-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <router-link class="nav-link" to="/">Accueil</router-link>
+                                </li>
+                                <li class="nav-item">
+                                    <router-link class="nav-link" to="/enfants">Enfants</router-link>
+                                </li>
+                                <li class="nav-item">
+                                    <router-link class="nav-link" to="/adolescentes">Adolescentes</router-link>
+                                </li>
+                                <li class="nav-item">
+                                    <router-link class="nav-link" to="/femmes">Femmes</router-link>
+                                </li>
+                                <li class="nav-item">
+                                    <router-link class="nav-link" to="/hommes">Hommes</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </nav>
             <router-view/>

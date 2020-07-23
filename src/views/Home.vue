@@ -33,8 +33,8 @@
                 </div>
                 <div class="d-flex justify-content-center">
 
-                    <div class="rdvButton">
-                        <div  class="marginauto">
+                    <div class="rdvButton justify-content-center">
+                        <div  class="marginauto  d-flex justify-content-center">
                             <a class="link" href="https://www.doctolib.fr/psychologue/rixheim/estelle-lesein-ulmann"
                                target="_blank"> Prendre rendez-vous directement en ligne </a>
                         </div>
@@ -84,6 +84,14 @@
     .rdvButton {
         margin-top: 35px;
         background-color: rgba(61, 52, 52, 0.92);
+        width: 200px;
+        text-decoration: none;
+        transition: 0.3s;
+
+    }
+    .rdvButton:hover {
+        margin-top: 35px;
+        background-color: rgba(137, 117, 117, 0.92);
         width: 200px;
         text-decoration: none;
 
